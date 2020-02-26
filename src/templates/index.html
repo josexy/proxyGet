@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Proxies</title>
+    {% endif %}
+</head>
+<body>
+    <table style="background-color: #8080807a" border="1">
+    <tr>
+        {% for field in table_field %}
+        <th>{{field}}</th>
+        {% endfor %}
+    </tr>
+    {% for row in datas %}
+    <tr>
+        {% for col in row %}
+        <td>{{col}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
