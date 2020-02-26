@@ -1,0 +1,8 @@
+﻿aiohttp==3.6.2
+Flask==1.1.1
+lxml==4.5.0
+PyMySQL==0.9.3
+pyquery==1.4.1
+requests==2.22.0
+termcolor==1.1.0
+colorama==0.4.3
